@@ -17,14 +17,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/adaptiveicon.png",
         "backgroundColor": "#ffffff"
       },
-      "statusBar": {
-        "backgroundColor": "#FFA3BE",
-        "barStyle": "dark-content",
-        "translucent": true
-      }
+      "package": "com.viniciusiscoder.cupcakeAPP"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +33,11 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6b26e041-d54c-4005-b9a0-2fff76e2e109"
+      }
     }
   }
 }

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, FlatList, StyleSheet, ActivityIndicator, Alert, Image, TouchableOpacity } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { format, toZonedTime } from 'date-fns-tz';
+import { format } from 'date-fns';
 
 
 import homeIcon from '../../../assets/images/Home.png';
